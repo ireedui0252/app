@@ -1,0 +1,49 @@
+.body-main {
+  background: rgb(252,252,252);
+  background: linear-gradient(90deg, #C7C5F4, #776BCC);	
+  width: 100%;
+  height: 100vh;
+}
+
+.video {
+  width: 1780px;
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  padding-left: 1rem;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.lesson-name {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 15px;
+}
+.lesson-name:hover {
+  cursor: pointer;
+}
+.body-icon {
+  width: 24px;
+  height: 24px;
+}
+video {
+  width: 280px;
+  height: 180px;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  object-fit: cover;
+  transition: all .4s ease-in-out;
+}
+video:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}

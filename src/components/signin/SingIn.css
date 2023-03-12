@@ -1,0 +1,57 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);	
+   
+}
+.container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-box {
+    width: 900px;
+    height: 750px;
+    background-color: rgb(172, 189, 189);
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.wrap {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    gap: 1rem;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+input{
+   width: 200px;
+   height: 35px;
+   font-size: 20px;  
+}
+p {
+    font-size: 20px;
+}
+.submit {
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(70, 69, 69);
+    margin-top: 1rem;
+    margin-left: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
